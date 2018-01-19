@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/call_bg"
+    tools:context=".activity.MainActivity">
+
+    <max.com.snakegame.widget.SnakeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_timeCountDown"
+        android:text="3"
+        android:gravity="center"
+        android:textSize="200sp"
+        android:textColor="@color/YELLOW"
+        android:background="@drawable/timecount_down_bg_shape"
+        android:layout_centerInParent="true"
+        android:layout_width="400dp"
+        android:layout_height="400dp"/>
+
+</RelativeLayout>

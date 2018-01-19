@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_spring"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="105dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="48dp"
+            android:background="@drawable/splash_btn_bg_selector"
+            android:text="春天"
+            android:textColor="@color/WHITE"
+            android:layout_above="@+id/btn_autumn"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:id="@+id/btn_summer"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splash_btn_bg_selector"
+            android:text="夏天"
+            android:textColor="@color/WHITE"
+            android:layout_above="@+id/btn_autumn"
+            android:layout_alignStart="@+id/btn_spring"/>
+
+        <Button
+            android:id="@+id/btn_autumn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:background="@drawable/splash_btn_bg_selector"
+            android:text="秋天"
+            android:textColor="@color/WHITE"
+            android:layout_marginBottom="241dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/btn_summer"/>
+
+        <Button
+            android:id="@+id/btn_winter"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splash_btn_bg_selector"
+            android:text="冬天"
+            android:textColor="@color/WHITE"
+            android:layout_marginTop="32dp"
+            android:layout_alignTop="@+id/btn_spring"
+            android:layout_alignStart="@+id/btn_autumn"/>
+    </RelativeLayout>
+</LinearLayout>
